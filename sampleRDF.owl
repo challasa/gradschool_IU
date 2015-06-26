@@ -1,0 +1,106 @@
+@prefix wendi: <http://wendi.org/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+
+wendi:ChemicalCompound rdf:type owl:Class.
+wendi:Bioassay rdf:type owl:Class.
+wendi:Journalarticle rdf:type owl:Class.
+
+
+wendi:isSimilarTo rdf:type owl:ObjectProperty.
+wendi:hasSimilarity rdf:type owl:DatatypeProperty;
+                    rdfs:subPropertyOf wendi:isSimilarTo.
+wendi:isAssosciatedWith rdf:type owl:ObjectProperty;
+                        rdfs:domain wendi:ChemicalCompound;
+                        rdfs:range wendi:Bioassay.
+wendi:isContainedin rdf:type owl:ObjectProperty;
+                    rdfs:domain wendi:ChemicalCompound;
+                    rdfs:range wendi:Journalarticle.
+
+wendi:couldbeAssociated rdf:type owl:ObjectProperty.
+wendi:query rdf:type wendi:ChemicalCompound.
+
+wendi:cid24871487 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid24871487;
+            wendi:hasSimilarity "1.000".
+
+wendi:aid1469 rdf:type wendi:Bioassay.
+wendi:cid24871487 wendi:isAssociatedWith wendi:aid1469.
+
+wendi:cid6713707 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid6713707;
+            wendi:hasSimilarity "1.000".
+
+wendi:aid1422 rdf:type wendi:Bioassay.
+wendi:cid6713707 wendi:isAssociatedWith wendi:aid1422.
+
+wendi:cid6604382 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid6604382;
+            wendi:hasSimilarity "1.000".
+
+wendi:aid446 rdf:type wendi:Bioassay.
+wendi:cid6604382 wendi:isAssociatedWith wendi:aid446.
+
+wendi:cid83979 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid83979;
+            wendi:hasSimilarity "1.000".
+
+wendi:aid1460 rdf:type wendi:Bioassay.
+wendi:cid83979 wendi:isAssociatedWith wendi:aid1460.
+
+wendi:cid41867 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid41867;
+            wendi:hasSimilarity "1.000".
+
+wendi:aid1195 rdf:type wendi:Bioassay.
+wendi:cid41867 wendi:isAssociatedWith wendi:aid1195.
+
+wendi:cid32875 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid32875;
+            wendi:hasSimilarity "1.000".
+
+wendi:aid1469 rdf:type wendi:Bioassay.
+wendi:cid32875 wendi:isAssociatedWith wendi:aid1469.
+
+wendi:cid31703 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid31703;
+            wendi:hasSimilarity "1.000".
+
+wendi:aid1194 rdf:type wendi:Bioassay.
+wendi:cid31703 wendi:isAssociatedWith wendi:aid1194.
+
+wendi:cid1691 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid1691;
+            wendi:hasSimilarity "1.000".
+
+wendi:aid115 rdf:type wendi:Bioassay.
+wendi:cid1691 wendi:isAssociatedWith wendi:aid115.
+
+wendi:cid6711219 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid6711219;
+            wendi:hasSimilarity "0.964".
+
+wendi:aid1 rdf:type wendi:Bioassay.
+wendi:cid6711219 wendi:isAssociatedWith wendi:aid1.
+
+wendi:cid15940175 rdf:type wendi:ChemicalCompound.
+
+wendi:query wendi:isSimilarTo wendi:cid15940175;
+            wendi:hasSimilarity "0.964".
+
+wendi:aid1004 rdf:type wendi:Bioassay.
+wendi:cid15940175 wendi:isAssociatedWith wendi:aid1004.
+
+

@@ -1,0 +1,29 @@
+Read.txt file for SmithWaterman Algorithm.
+
+1)User enters Matrix(PAM or BLOSUM) ,filename(fasta file where the sequences are availble),gap opening penalty,gap extension penalty,output file(give as .html file).
+  Each of the entered values are arranged into a hash with m,f,g,e,o respectively as the keys and the value that user enters as a value.
+
+2)Then the sequences from the fasta file are read in.The name following the '>'is sepesrated from the actual sequences using regular expressions in PERL.
+  Each sequence is assigned to an array.
+
+3)The PAM250 and BLOSUM62 matrices are coded into the program usng the concept of array of arrays and hases.
+ Each row in the matrix is written in a array and all the arrays are referenced into a main P250 array.
+ Then a hash is created and that has the concatenation of elements from horizontal and vertical arrays.(like AA,AB,AP,etc).Their correxponding value is assigned when this concatenated atring is called anywhere in the program.
+Similarly with BLOSUM62.
+
+4)The length of the arrays having sequences is calculated,and that set as a limit a 2D array is constructed with all the bounday values initialised to zero.
+
+5)Using for loops the 2D array (matrix) is filled in taking the maximum value of the diagonal,left and up scores.
+
+6)Based on the max score traceback is assigned to each cell,1 towards diagonal,2 towards left and 3 towards up.
+
+7)Based on the score and traceback values for each cell trace back is done and the elements that are consumed are stored into two different arrays.
+If the traceback is 1 ,its diagonal and both the elements from horizontal and vertical arrays are consumed,if the score
+is 2 ,its left and thus the horizontal element is consumed and if traceback is 3 vertical elemnt is consumed and thus the sequences are stored into arrays.
+
+8)Then if the sequences are matching ,i.e.if the horizontal sequence and vertical sequencesa have same elements a match is considered and a score is assigned to it from the PAM or blosum matrix.
+ If there is a gap the gap given by the user is taken and the score is calculated.
+9)The output is generated into an HTML file by just writing in to a .html file.
+
+
+

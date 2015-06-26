@@ -1,0 +1,187 @@
+@prefix :        <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#> .
+@prefix Bioorg:  <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#Bioorg._Med._Chem._Lett._13_(2000)> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl2xml:  <http://www.w3.org/2006/12/owl2-xml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix J2:      <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#J._Med._Chem._43_(2000)> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix WendiOntology:  <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#> .
+@prefix Bioorg2:  <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#Bioorg._Med._Chem._Lett._8_(2000)> .
+@prefix J:       <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#J._Med._Chem._40_(2000)> .
+
+WendiOntology:cid24871487
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid1469 .
+
+WendiOntology:aid1460
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+WendiOntology:BioAssay
+      rdf:type owl:Class .
+
+WendiOntology:aid446
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+WendiOntology:JTFJ020496
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_ContainedIn
+              <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#J._Med._Chem._40_(2000)_920_> .
+
+WendiOntology:aid1194
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+WendiOntology:cid15940175
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid1004 .
+
+WendiOntology:cid6604382
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid446 .
+
+<http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#Bioorg._Med._Chem._Lett._8_(2000)_3360_>
+      rdf:type owl:Thing , WendiOntology:JournalArticle ;
+      WendiOntology:hasPubMedID
+              "9873734" ;
+      WendiOntology:hasTitle
+              "ACCEPTOR SUBSTRATE-BASED SELECTIVE INHIBITION OF GALACTOSYLTRANSFERASES " .
+
+WendiOntology:JTFJ086973
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_ContainedIn
+              <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#Bioorg._Med._Chem._Lett._8_(2000)_3360_> .
+
+WendiOntology:JTFJ044177
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_ContainedIn
+              <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#Bioorg._Med._Chem._Lett._13_(2000)_3660_> .
+
+WendiOntology:is_SimilarTo
+      rdf:type owl:ObjectProperty ;
+      rdfs:domain WendiOntology:ChemicalCompound ;
+      rdfs:range WendiOntology:ChemicalCompound .
+
+<http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#J._Med._Chem._43_(2000)_2100_>
+      rdf:type owl:Thing , WendiOntology:JournalArticle ;
+      WendiOntology:hasPubMedID
+              "10841789" ;
+      WendiOntology:hasTitle
+              "Developing a Dynamic Pharmacophore Model for HIV-1 Integrase" .
+
+WendiOntology:cid41867
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid1195 .
+
+WendiOntology:JTFJ097451
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_ContainedIn
+              <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#J._Med._Chem._43_(2000)_2100_> .
+
+WendiOntology:hasPubMedID
+      rdf:type owl:DatatypeProperty .
+
+WendiOntology:hasSimilarity
+      rdf:type owl:DatatypeProperty .
+
+WendiOntology:cid83979
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid1460 .
+
+WendiOntology:cid32875
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid1469 .
+
+WendiOntology:cid1691
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid115 .
+
+WendiOntology:cid31703
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid1194 .
+
+WendiOntology:aid1195
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+WendiOntology:aid1004
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+WendiOntology:JTFJ020497
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_ContainedIn
+              <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#J._Med._Chem._40_(2000)_920_> .
+
+WendiOntology:is_ContainedIn
+      rdf:type owl:ObjectProperty ;
+      rdfs:domain WendiOntology:ChemicalCompound ;
+      rdfs:range WendiOntology:JournalArticle .
+
+WendiOntology:cid6713707
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid1422 .
+
+WendiOntology:JournalArticle
+      rdf:type owl:Class .
+
+<http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl>
+      rdf:type owl:Ontology .
+
+WendiOntology:cid6711219
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_AssociatedWith
+              WendiOntology:aid1 .
+
+WendiOntology:aid1422
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+<http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#Bioorg._Med._Chem._Lett._13_(2000)_3660_>
+      rdf:type owl:Thing , WendiOntology:JournalArticle ;
+      WendiOntology:hasPubMedID
+              "14552751" ;
+      WendiOntology:hasTitle
+              "Synthesis and SAR Studies of Potent HIV Protease Inhibitors Containing Novel Dimethylphenoxyl Acetates as P2 Ligands " .
+
+WendiOntology:aid1469
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+WendiOntology:aid115
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+WendiOntology:JTFJ097444
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_ContainedIn
+              <http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#J._Med._Chem._43_(2000)_2100_> .
+
+WendiOntology:queryCompound
+      rdf:type owl:Thing , WendiOntology:ChemicalCompound ;
+      WendiOntology:is_SimilarTo
+              WendiOntology:cid1691 , WendiOntology:cid24871487 , WendiOntology:cid31703 , WendiOntology:JTFJ020496 , WendiOntology:JTFJ020497 , WendiOntology:cid15940175 , WendiOntology:cid6604382 , WendiOntology:cid6713707 , WendiOntology:JTFJ086973 , WendiOntology:cid6711219 , WendiOntology:JTFJ044177 , WendiOntology:JTFJ097444 , WendiOntology:cid41867 , WendiOntology:JTFJ097451 , WendiOntology:cid83979 , WendiOntology:cid32875 .
+
+WendiOntology:ChemicalCompound
+      rdf:type owl:Class .
+
+WendiOntology:aid1
+      rdf:type WendiOntology:BioAssay , owl:Thing .
+
+WendiOntology:is_AssociatedWith
+      rdf:type owl:ObjectProperty ;
+      rdfs:domain WendiOntology:ChemicalCompound ;
+      rdfs:range WendiOntology:BioAssay .
+
+<http://www.semanticweb.org/ontologies/2009/6/WendiOntology.owl#J._Med._Chem._40_(2000)_920_>
+      rdf:type owl:Thing , WendiOntology:JournalArticle ;
+      WendiOntology:hasPubMedID
+              "9083480" ;
+      WendiOntology:hasTitle
+              "HIV-1 Integrase Pharmacophore: Discovery of Inhibitors through Three-Dimensional Database Searching " .
+
+WendiOntology:hasTitle
+      rdf:type owl:DatatypeProperty .

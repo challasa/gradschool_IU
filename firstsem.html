@@ -1,0 +1,79 @@
+<html>
+<head>
+<style type="text/css">
+p{font-size:15}
+h2.italic{font-style:italic;font-size:16px}
+h2{color:blue}
+</style>
+</head>
+<h1 style="font-size:22;color:green">Fall 2008</h1>
+<h2 class="italic"><a href=http://www.informatics.indiana.edu/dalkilic/dance.asp>Introduction to Bioinformatics</a></h2>
+<p>This course involved various assignments in statistics (done in R) and implementation of <a href=http://en.wikipedia.org/wiki/Smith-Waterman_algorithm>Smith-Waterman algorithm</a> decribed <a href=smithw.txt>here</a> ( code in <a href=smw.pl>PERL</a>), using dynamic programming methodology to solve a puzzle. 
+The final project involved creating a PHP-MySQL based database, web frontend to query, update the database. Information in the database is the list of genes related to a particular disease.
+Fibromyalgia is the disease I chose and here is a mini literature survey <a href=schalla_Final writeup.pdf>report</a>.
+</p>
+<h2 class="italic"><a href=http://cheminfo.wikispaces.com/I571+Chemical+Information+Technology+Fall+2008>Chemical Information Technology</a></h2>
+<p>This is a survey course in Cheminformatics. It had a couple of assignments and a final <a href=I571_Main_Project.pdf>project</a> in Pipeline Pilot.<br>
+</p>
+<h2 class="italic">Introduction to <a href=http://en.wikipedia.org/wiki/Probability>Probability</a> and Statistics</h2>
+<p>This Course involved programming assisgnments in R. Computation of Pi, Spam Detection using Bayes Theorem were some of the assignments involved.
+</p><br>
+<h1 style="font-size:22;color:green">Spring 2009</h1>
+<h2 class="italic"><a href=http://cheminfo.informatics.indiana.edu/~rguha/class/2009/i573/>Programming in Chemical and Life Science Informatics</a></h2>
+<p>Implementations involving Graph theory using Object oriented programming style in python.<a href=GraphOOPs.py> GraphsOOPs </a>,<a href=READMEforOOPs.txt>README</a>
+</p>
+<p>
+SD file <a href=SDparser.py>parser written in python</a> and also in OEChem Toolkit.(code not available here). <a href=schalla_HW2.pdf>Distributions</a> of a sample SD file.
+</p>
+<p>Genetic Algorithm for Feauture Selection (Implemented in R programming Language). Feature Selection code using <a href=bruteforce.R>Bruteforce</a> method and <a href=genAlg.R>GA</a>. Here is the <a href=READMEforGA.txt>README</a>.
+Here is the <a href=schalla_I573report.pdf>report</a> and the presentation <a href=I573project.ppt>slides</a>
+</p>
+<h2 class="italic"><a href=http://darwin.informatics.indiana.edu/col/courses/I529-09/>Bioinformatics in Molecular</a> Biology and Genetics: Practical Applications</h2>
+<p>E.Coli gene finder,<a href=ECgnfinder.py>ECgnfinder</a> in Python,<a href=READMEforECgn.txt>README</a></p>
+<p>The Goal of this program is to build a simple codon-usage gene finder for finding genes in E.Coli. Given a sequence of nucleotides, this program finds out in which particular reading frame, out of the 6 reading frames possible, there are genes that are similar to those found in E.Coli. In other words it gives maximum likelihood of each Reading Frame. If a Open Reading Frame has a positive likelihood value it is more likely to be similar to E.Coli. Based on the codon usage table that is obtained from matching genes and corresponding proteins they are translated into(in this case ffn file has genes, and faa file has proteins), a probabilistic model is built. This model is compared to Random sequence model,in which the nucleotide frequency is computed. This comparision is done by taking their log ratio and that gives the maximum likelihood.</p>
+
+<p>E.Coli gene finder using first order Markov Chain <a href=ECgnfinder_mc.py>ECgnfinder_mc</a> in Python.</p>
+<p>Pair Hidden Markov Model: <a href=pairhmm.pl> Code</a>  <a href=READMEpairhmm.txt>README</a>  <a href=in1.fasta>SampleInput</a>  <a href=output.fasta>SampleOutput</a></p>
+<p>A group <a href=I529_final_report.pdf>project</a> based on Funtional Genomics of Early Development in Sea Urchins
+</p>
+<p>Some of the Tools that I got introduced to and had used:seq++, WebLogo,NCBI ORF Finder, Glimmer, GeneMark, AmiGO, PFP, MEME, Pfam, HMMER, ClustalW, Phylip, PALM, Bowtie, MEGAN </p>
+<h2 class="italic">Research Project in <a href=http://www.w3.org/2001/sw/#spec>Semantic Web</a></h2>
+<p>This was done under <a href=http://info.slis.indiana.edu/~dingying/>Prof. Ying Ding</a>. It initially involved using <a href=http://gate.ac.uk/>GATE</a> to extract name entities from a jobs dataset. Later an attempt was made towards linking the locations in the jobs dataset to places in DBPedia.
+<a href=http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/>D2R server</a> was run on a relational database created and an attempt was made to use <a href=http://www4.wiwiss.fu-berlin.de/bizer/silk/>SILK-LSL</a> to link to DBPedia using owl:sameAs relation. It was an attempt towards Linked Data.<br>
+
+<h1 style="font-size:22;color:green">Fall 2009</h1>
+<h2 class="italic"><a href=http://cs.indiana.edu/~yuqwu/B561-fall09/webpage>Advanced Database Concepts</a></h2>
+<p>Topics Covered: ER Diagrams,Relational Algebra, Relational Calculus, Nested SQL queries, Concurrency Control and Transaction Management, Query Evaluation, Query Optimization, Crash Recovery, Normalization.  </p>
+<h2 class="italic">Research Project on Semantic Web and Chemical Data Mining </h2>
+<p>This project involved applying Semantic Web Technologies to the Drug Discovery data. I built an OWL Ontology for WENDI (Web Engine for Non obvious Drug Information), a tool developed for Eli Lilly Pharmaceutical Company by Cheminformatics group at Indiana University. Automated generation of RDF triples from XML output (using JAXP, JDOM in Java), based on the Ontology and framed rules (using Jena's generic reasoner) to infer relationships between compounds and genes and diseases. This work got accepted at two different conferences. (look in the Publications section)</p> 
+
+<h2 class="italic">Capstone Project in High Performace Computing and Semantic Web</h2>
+<p>This is part of the <a href=http://research.microsoft.com/en-us/projects/orechem/>oreCHEM</a> project, a project funded by Microsoft Research and in collaboration with some of the Universities in United States and UK. My role in this involved converting ATOM feeds into RDF/XML and storing the triples generated into triple store, building a pipeline to run compute intensive electronic structure molecular modelling software on TeraGrid (using OGCE Workflow Suite). I even got to work with Dryad, DryadLINQ (microsoft's cloud run-time) to distribute jobs from head-node to compute nodes, perform computations and collect the outputs onto head node.</p>
+<br>
+<h1 style="font-size:22;color:green">Spring 2010</h1>
+<h2 class="italic"><a href=http://mendel.informatics.indiana.edu/~yye/lab/teaching/spring2010mg.php>Bioinformatics for Microbial Genomics and Metagenomics</a></h2>
+<p>Class presentation on a paper that talks about usage of q-value in Metagenomics studies<a href=I609_schalla.ppt>Slides</a>, Group Project on Comparing Microbial Diversity Estimation in 13 human-gut microbial metagenome samples using 16SrRNA, recA phylogenetic markers. <a href=final_I609_slides.pptx>Presentation Slides</a></p>
+<h2 class="italic">Capstone Project in High Performace Computing and Semantic Web</h2>
+<p>Final Report <a href=Capstone_report.pdf>pdf</a>, <a href=CapstoneSlides.pptx>Slides</a></p>
+<p>Several RESTful web-services were written for this project. Code can be checked out <a href=https://orechem.svn.sourceforge.net/svnroot/orechem/>here</a> from SVN</p>
+<h2 class="italic">Independent Study Project with Persistent Indiana Research Center</h2>
+<p>Worked with Persistent Systems for 6 months. I had worked on incorporating hierarchical clustering, PCA components into a cloud based PCR-data analysis tool.I had used R-serve to connect to R from Java. I was successfully able to pass data from Java into R, perform computations, produce cluster heat maps, PCA Biplots in R and get them back into Java environment. Due to IP reasons I am not having the code here. However Prior to using R, RServe, Java I had implemented Hierarchical Clustering algorithm (Single Linkage Method) in Java and <a href="HClustering_PCR.java">here</a> is the code.</p>
+
+<h1 style="font-size:22;color:green">Conference Proceedings & Publications</h1>
+<p>Challa, S., Wild, D.J., Ding, Y., Zhu, Qian. Semantic Rules on Drug Discovery Data.<a href=http://www.aswc2009.org/images/stories/documents/aswc2009_demo01.pdf>4th Annual Asian Semantic Web Conference (ASWC) 2009</a>. Accepted October 2009</p>
+<p>Qian Zhu, Sashikiran Challa, Prajakta Purohit, Michael Lajiness, David Wild, and Ying Ding."Using Web technologies for integrative drug discovery". Accepted at <a href=http://www.yorku.ca/wiiat10/>IEEE/WIC/ACM WI 2010</a></p>
+<p>Michael S. Barker1, Katrina M. Dlugosch1, Louie Dinh1, R. Sashikiran Challa, Nolan C. Kane1, Matthew G. King, and Loren H. Rieseberg. "EvoPipes.net: Bioinformatic tools for ecological and evolutionary genomics". Evolutionary Bioinformatics. Manuscript Accepted Aug 2010.</p>
+
+<h1 style="font-size:22;color:green">Miscellaneous</h1>
+<p>Python_GoogleSearch<a href="googlesearch.py">Code</a>, <a href="README_1.txt">README</a></p>
+<p>Python_PatternSearch<a href="patternsearch.py">Code</a>, <a href="README_2.txt">README</a></p>
+<p>Java_VowelCheck<a href="VowelsCheck.java">Code</a></p>
+<p>Java_ReverseSequence <a href="SequenceReverse.java">Code</a></p>
+<p>Perl_MergePairs <a href="mergepairs.pl">Code</a>, Perl_SearchID <a href="searchid.pl">code</a>, Parse_blastTabularoutput<a href="parseblastout.pl">code</a></p>
+
+<p><a href=sashikiran.html>Back to Home</a></p>
+<body>
+
+
+</body>
+</html>
